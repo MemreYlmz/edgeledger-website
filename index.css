@@ -1,0 +1,156 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+body{
+   
+}
+.hero{
+    background: url("./image_resources/home/showcase.jpg") no-repeat center center/cover;
+    height: 100vh;
+    position: relative;
+}
+#navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    
+}
+#navbar-ul{
+    list-style: none;
+    display: flex;
+    justify-content: end;
+}
+#navbar-li a{
+    text-decoration: none;
+    color: white;
+    padding: 2rem;
+}
+#content{
+    text-align: center;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+#content h1{
+    color: white;
+    padding: 1rem;
+    font-size:3rem ;
+}
+#content h3{
+    color: white;
+    padding: 1rem;
+    font-size:1.5rem ;
+}
+#btn-readmore{
+    text-decoration: none;
+    color: white;
+    background-color: green;
+    padding: 0.7rem;
+    border-radius: 10px;
+}
+
+#info{
+    display: flex;
+    text-align: center;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    font-size: medium;
+}
+#info-1{
+    width: 15%;
+    padding: 20px;
+    text-align: left;
+
+}
+#info-2{
+    width: 15%;
+    padding: 20px;
+    text-align: left;
+
+}
+#info-3{
+    width: 15%;
+    padding: 20px;
+    text-align: left;
+
+}
+#info-i{
+    font-weight: 200;
+    background-color: green;
+    border: 15px solid green;
+    border-radius: 100%;
+    margin-right: -10px;
+}
+
+#about-us{
+    display: flex;
+}
+#img{
+    background: url("./image_resources/home/people.jpg") no-repeat center/cover;
+    width: 50%;
+    height: 350px;
+}
+#aboutus-div{
+    width: 50%;
+    padding-left: 25px;
+    padding-top: 15px;
+}
+#our-team{
+    padding-top: 15px;
+    list-style: none;
+}
+#our-team li{
+    padding: 15px 0px;
+}
+#client{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 25px;
+}
+#client-img{
+    width: 15%;
+}
+#contact-us{
+    display: flex;
+    padding-top:35px;
+}
+
+#form-div{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    background-color: green;
+    padding: 25px;
+}
+#right{
+    background-color: grey;
+    width: 60%;
+}
+#form{
+    padding-top: 25px;
+}
+#form-div h2{
+    padding-top: 10px;
+    color: white;
+}
+input{
+    width: 95%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+textarea{
+    width: 95%;
+    margin-bottom: 10px;
+    height: 50px;
+}
+
